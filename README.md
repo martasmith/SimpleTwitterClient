@@ -21,7 +21,7 @@ Time spent: 35 hours spent in total
    - [x] User is taken back to home timeline with new tweet visible in timeline
    - [x] *Optional*: User can see a counter with total number of characters left for tweet
   
-*Extra features asked on Moonday night:*
+*Special features asked on Moonday night:*
  - [x] When adding a new tweet to timeline, manually insert new tweet, do not refresh timeline
  - [x] When twitter rate limit reached, notify user with a toast message
 
@@ -44,7 +44,7 @@ Time spent: 35 hours spent in total
 **Notes:**
 
 * This is my initial submission to be graded. 
-* I made the big mistake to not test my app reigorously during the development, especially the oAuth and the saving user credentials in shared preferences functionality. This came back to bite me today! I spent most of the day debugging my app instead of developing advanced features. :(
+* I made the big mistake to not test my app rigorously during the development, especially the oAuth and the saving user credentials in shared preferences functionality. This came back to bite me today! I spent most of the day debugging my app instead of developing advanced features. :(
 * The UI could use a lot of work still, I am planning to do those changes after the bootcamp ends to improve my portfolio.
 
 LICEcap demo:
