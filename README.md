@@ -33,7 +33,7 @@ Time spent: 35 hours spent in total
 
 - [ ] User can refresh tweets timeline by pulling down to refresh (i.e pull-to-refresh)
 - [ ] User can open the twitter app offline and see last loaded tweets
-   - [x] Tweets are persisted into sqlite and can be displayed from the local DB
+   - [ ] Tweets are persisted into sqlite and can be displayed from the local DB
 - [ ] User can tap a tweet to display a "detailed" view of that tweet
 - [ ] User can select "reply" from detail view to respond to a tweet
 - [ ] Improve the user interface and theme the app to feel "twitter branded"
@@ -48,4 +48,4 @@ Time spent: 35 hours spent in total
 * The UI could use a lot of work still, I am planning to do those changes after the bootcamp ends to improve my portfolio.
 
 LICEcap demo:
-![LICEcapimage](https://github.com/martasmith/GridImageSearch/blob/master/codepath_week2_v1.gif)
+![LICEcapimage](https://github.com/martasmith/SimpleTwitterClient/blob/master/codepath_week3_v1.gif)
