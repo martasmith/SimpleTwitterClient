@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.codepath.apps.basictwitter.TimelineActivity" >
+    
+        <item
+        	android:id="@+id/miSettings"
+        	android:icon="@drawable/ic_action_compose"
+        	android:onClick="onCompose"
+        	android:showAsAction="ifRoom"
+        	android:title="@string/action_settings">
+    	</item>
+
+</menu>

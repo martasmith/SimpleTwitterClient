@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+  <ImageView
+        android:id="@+id/ivProfileImage"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_alignParentLeft="true"
+        android:contentDescription="@string/iv_profileimage_alt"
+        android:src="@drawable/ic_launcher" />
+  
+   <TextView
+        android:id="@+id/tvFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_alignTop="@+id/ivProfileImage"
+        android:layout_toRightOf="@+id/ivProfileImage"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="2dp"
+        android:textStyle="bold"
+        android:text="@string/tv_fullname_label" />
+      
+    <TextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/tvFullName"
+        android:layout_alignBottom="@+id/tvFullName"
+        android:textColor="#8A8A8A"
+        android:paddingTop="5dp"
+        android:layout_marginLeft="2dp"
+        android:textSize="12sp"
+        android:text="@string/tv_username_label" />
+
+    <TextView
+        android:id="@+id/tvBody"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/tvFullName"
+        android:layout_below="@+id/tvFullName"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="2dp"
+        android:autoLink="web"
+        android:linksClickable="true"
+        android:layout_marginBottom="10dp"
+        android:text="@string/tv_body_label"/>
+
+    <TextView
+        android:id="@+id/tvRelativeDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/tvUserName"
+        android:layout_alignBottom="@+id/tvUserName"
+        android:layout_alignParentRight="true"
+        android:textColor="#8A8A8A"
+        android:textSize="12sp"
+        android:layout_marginRight="5dp"
+        android:text= "@string/tv_relativeDate_label"/>
+
+</RelativeLayout>
